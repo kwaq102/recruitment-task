@@ -1,0 +1,12 @@
+section.fourthSection {
+    padding: 5vh 5vw 5vh 5vw;
+    background-color: #ccc;
+}
+
+section.fourthSection div.row div img {
+    width: 100%;
+}
+
+section.fourthSection div.row div img.active {
+    transform: scale(1.1);
+}

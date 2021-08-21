@@ -1,0 +1,17 @@
+section.users {
+    width: 70%;
+    margin: 0 auto;
+}
+
+section.users div.randomUsers {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    justify-content: space-around;
+}
+
+@media (min-width: 800px) {
+    section.users {
+        width: 100%;
+    }
+}

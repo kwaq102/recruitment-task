@@ -1,0 +1,28 @@
+div.bigBen {
+    width: 200px;
+    position: fixed;
+    top: 20%;
+    left: -150px;
+    z-index: 2;
+    transition: .3s linear;
+}
+
+div.bigBen div {
+    width: 150px;
+    padding: 20px;
+    background-color: white;
+    font-size: 20px;
+    border: 1px solid gray;
+}
+
+div.bigBen img {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 50px;
+}
+
+div.bigBen:hover {
+    left: 0;
+}

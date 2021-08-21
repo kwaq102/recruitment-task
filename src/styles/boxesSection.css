@@ -1,0 +1,16 @@
+section.boxes-section {
+    margin: 40px auto;
+}
+
+section.boxes-section div.row div.box {
+    background-color: red;
+    font-weight: bold;
+    font-size: 28px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+section.boxes-section div.row div.box div {
+    border: 1px solid black
+}
